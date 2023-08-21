@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>PhonePe</title>
+    
+</head>
+
+<body>
+    <nav class="bg-white  px-4 md:px-0 md:pt-4">
+        <div class="container mx-auto">
+            <div class="flex flex-row md:justify-around justify-between   ">
+                <div class="text-2xl"> <img class="h-[50px]  w-[155px]" src="./imgs/logo.png" alt="" />
+                </div>
+                <div class="hidden w-full align-middle mt-2 pt-2 md:flex xd:flex-col  justify-around  list-none ">
+                    <li class='border-b-[14px] list-none   hover:border-white hover:border-b-[14px] border-violet-600 '>
+                        <a href="#"
+                            class="text-black text-sm text-center   font-Normal uppercase hover:text-violet-600">Business
+                            solution </a>
+                    </li>
+                    <li class='border-b-[14px] border-white hover:border-b-[14px]  hover:border-violet-600'>
+                        <a href="#" class="text-black text-md  font-Normal uppercase hover:text-violet-600">Press</a>
+                    </li>
+                    <li class='border-b-[14px] border-white hover:border-b-[14px] hover:border-violet-600'>
+                        <a href="#" class="text-black text-md  font-Normal uppercase hover:text-violet-600">Privacy and Securtiy</a>
+                    </li>
+                    <li class='border-b-[14px] border-white hover:border-b-[14px] hover:border-violet-600'>
+                        <a href="#" class="text-black text-md  font-Normal uppercase hover:text-violet-600">Blog</a>
+                    </li>
+                    <li class='border-b-[14px] border-white hover:border-b-[14px] hover:border-violet-600'>
+                        <a href="#" class="text-black text-md  font-Normal uppercase hover:text-violet-600">About Us</a>
+                    </li>
+                    <li class='border-b-[14px] border-white hover:border-b-[14px] hover:border-violet-600'>
+                        <a href="#" class="text-black text-md  font-Normal uppercase hover:text-violet-600">Careers</a>
+                    </li>
+                </div>
+                <div class="md:hidden">
+                    <button id="toggleButton" class="text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class='bg-violet-200 bg-opacity-40'>
+        <div class='flex justify-between items-center pr-2 w-[95%] m-auto'>
+            <div>
+                <h1 class='opacity-75 text-violet-600 font-semibold'>Payment Getway</h1>
+            </div>
+            <div class=' hidden md:flex  opacity-75  mr-5'>
+                <a class='p-[1rem] mx-4 hover:text-violet-600 hover:underline' href="">Features</a>
+                <a class='p-[1rem] mx-4 hover:text-violet-600 hover:underline' href="">Solutions</a>
+                <a class='p-[1rem] mx-4 hover:text-violet-600 hover:underline' href="">Developer</a>
+                <a class='p-[1rem] mx-4 hover:text-violet-600 hover:underline' href="">Integration</a>
+                <a class='p-[1rem] mx-4 hover:text-violet-600 hover:underline' href="">Price</a>
+                <a class='p-[1rem] mx-4 hover:text-violet-600 hover:underline' href="">FAQs</a>
+            </div>
+
+            <div class='flex md:hidden text-center text-violet-600'>
+                <ion-icon name="arrow-down-outline"></ion-icon>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- navbar end  -->
+
+
+
+    <div class="relative md:h-[1110px] h-[100%]  w-[100vw] isolate  overflow-hidden bg-gray-900  ">
+        <img src="./imgs/bg2.png" alt=""
+            class="absolute inset-0 -z-10 h-full hidden md:block w-full bg-white object-center" />
+        <img src="./imgs/bg3.png" alt=""
+            class="absolute inset-0 -z-10 h-full md:hidden block w-full bg-white object-center" />
+        <div class="grid w-[100vw] grid-cols-1 md:grid-cols-2 justify-items-center justify-center  mx-auto gap-x-1 ">
+
+            <div class='md:w-[70%] w-[100%] mx-auto px-10 md:px-0 flex flex-col  '>
+                <h1 class='md:text-5xl  text-4xl mt-20 text-white w-[100vw]  font-bold text-left'>Scale Your Business
+                    <br /> with <span class='text-red-200 text-opacity-75'>PhonePe Payment <br /> Gateway</span> </h1>
+                <p
+                    class='md:text-2xl text-xl font-sans sm:text-xs my-5 md:font-bold font-normal text-[7px] w- text-white text-left '>
+                    Powered by India’s most trusted online digital payment partner</p>
+
+                <button
+                    class='text-[1.2rem] py-3  w-[260px] text-white font-semibold bg-violet-700 mt-6 rounded-full uppercase'>get
+                    start for free</button>
+            </div>
+
+            <div class=''>
+                <img class='md:h-[500px] md:w-[350px] w-[250px] bg-cover' src="./imgs/phone1.png" alt="phonepe img" />
+            </div>
+
+
+            <div class=''>
+                <img class='w-[300px] mt-4' src="./imgs/phone2.png" alt="" />
+            </div>
+
+            <div class='md:w-[70%] w-full my-5 mx-auto text-center  flex flex-col  '>
+                <h1 class='md:text-4xl  text-3xl mt-20 text-white w-full  font-bold  md:text-left'>Power Up Your
+                    Business Payments with PhonePe Payment Gateway </h1>
+                <p class='md:text-xl font-sans text-[1rem] my-5   text-white md:text-left '>With a no-code requirement,
+                    a super quick setup, digital onboarding and a delightful customer experience, go live with PhonePe
+                    Payment Gateway easily in just a few clicks.</p>
+                <p class=' md:text-left text-center'><button
+                        class='text-[1.2rem] shadow-md shadow-violet-800 py-3 text-center w-[240px] text-white font-semibold bg-violet-700 mt-6 rounded-full uppercase'>Try
+                        now for free</button></p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class='relative w-[100%] flex'>
+        <div class='mt-10 md:w-[50%] w-[80%] md:ml-36 ml-4'>
+            <h1 class='uppercase text-xl my-4 text-cyan-400 font-bold '>features</h1>
+            <h1 class='md:text-5xl w-[88%] sm:text-2xl my-4 text-black line  font-bold text-left'>A Robust Payment
+                Platform Built to Scale Your Business</h1>
+            <p class='text-black  w-[88%] font-thin my-4 md:text-xl text-md'> <span class='font-normal'>PhonePe Payment
+                    Gateway</span> provides the best payments experience you could ask for! Here’s what gives it an
+                edge:</p>
+        </div>
+
+        <div class='absolute hidden md:block right-24 bottom-24 h-[380px] w-[380px]'>
+            <img src="./imgs/monitor.png" alt="" />
+        </div>
+    </div>
+
+
+    <div class='w-[86%] mx-auto my-2 '>
+        <div class='grid  grid-cols-2 md:grid-cols-3  md:mx-0 justify-around md:justify-items-center my-6 gap-y-32  md:gap-0'>
+            <div class="box text-left md:h-[300px] md:w-[300px] h-[100px] w-[180px] pl-2">
+                <img src="./imgs/f1.svg" class='w-[50px] h-[50px]' alt="" />
+                <h1 class="font-semibold text-md md:text-xl capitalize my-4">High sucess rate</h1>
+                <p class='text-[0.5rem] md:text-[0.9rem] pt-2'>Enjoy a best-in-class payment experience with significantly higher success rates delivered using deep acquiring stack integrations.</p>
+            </div>
+
+            <div class="box text-left md:h-[300px] md:w-[300px] h-[100px] w-[180px] pl-2">
+                <img src="./imgs/f2.svg" class='w-[50px] h-[50px]' alt="" />
+                <h1 class="font-semibold text-xl capitalize my-4">Scalability</h1>
+                <p class='text-[0.5rem] md:text-[0.9rem] pt-2'>Get access to a reliable, seamless platform that is equipped to handle large scale transactions with dynamic routing ensuring 100% uptime.</p>
+            </div>
+
+            <div class="box text-left md:h-[300px] md:w-[300px] h-[100px] w-[180px] pl-2">
+                <img src="./imgs/f3.svg" class='w-[50px] h-[50px]' alt="" />
+                <h1 class=" font-semibold text-xl capitalize my-4">100% Secure</h1>
+                <p class='text-[0.5rem] md:text-[0.9rem] pt-2'>Adherence to ISO 27001 and PCI DSS compliance, data encryptions and internal audits & FRA capabilities ensuring 100% secure transactions.</p>
+            </div>
+
+            <div class="box text-left md:h-[300px] md:w-[300px] h-[100px] w-[180px] pl-2">
+                <img src="./imgs/f4.svg" class='w-[50px] h-[50px]' alt="" />
+                <h1 class="font-semibold text-xl capitalize my-4">Downtime Detections</h1>
+                <p class='text-[0.5rem] md:text-[0.9rem] pt-2'>Enable real-time instrument health tracking by proactively blocking transactions having a low chance of success and providing your customers with the best payment experience.</p>
+            </div>
+
+            <div class="box text-left md:h-[300px] md:w-[300px] h-[100px] w-[180px] pl-2">
+                <img src="./imgs/f5.svg" class='w-[50px] h-[50px]' alt="" />
+                <h1 class="font-semibold text-xl capitalize my-4">No code setup</h1>
+                <p class='text-[0.5rem] md:text-[0.9rem] pt-2'>Adherence to ISO 27001 and PCI DSS compliance, data encryptions and internal audits & FRA capabilities ensuring 100% secure transactions.</p>
+            </div>
+
+            <div class="box text-left md:h-[300px] md:w-[300px] h-[100px] w-[180px] pl-2">
+                <img src="./imgs/f6.svg" class='w-[50px] h-[50px]' alt="" />
+                <h1 class="font-semibold text-xl capitalize my-4">Seamless Support</h1>
+                <p class='text-[0.5rem] md:text-[0.9rem] pt-2'>We’re here for you anytime you want to reach out to us!</p>
+            </div>
+
+        </div>
+
+        <div class='Sign_up_button items-center text-center  mt-20 md:mt-0 '>
+            <button class='uppercase w-[200px] py-4 text-white font-semibold bg-violet-800 mt-6 rounded-full shadow-lg shadow-violet-400'>sign up now</button>
+        </div>
+    </div>
+
+
+
+    <div id='feature'  class='flex md:flex-row flex-col md:items-start items-center w-[95%] md:w-[85%] h-full m-auto my-32 relative  overflow-hidden'>
+        <img src="./imgs/centerbg.png" class="absolute inset-0 -z-10 h-full hidden md:block w-full bg-white object-center" />
+        <img src="./imgs/centerbg2.png" class="absolute inset-0 -z-10 h-full md:hidden block w-full bg-white object-center" />
+        <div class=' ml-6 md:w-[60%] w-[100vw] my-6 pl-8 mx-auto md:text-left'>
+            <h1 class='font-semibold text-xl md:text-4xl my-4 text-white capitalize '>Supercharge your <br /> Payment Experience with <br /> PhonePe Payment Gateway!</h1>
+            <div class='Sign_up_button items-left text-left my-10'>
+                <button class='uppercase w-[230px] py-3 text-[1.1rem] text-white border-[3px] border-violet-500 font-semibold bg-transparent mt-6 rounded-full '>try now for free</button>
+            </div>
+        </div>
+        <div  class='w-[40%] md:h-10  h-[500px] mx-auto'> 
+         <h1 class='text-transparent'>s</h1>
+        </div>
+    </div>
+
+
+
+    <!-- Features  -->
+
+
+
+    <div class='relative'>
+        <img src="./imgs/bg4.png" class="absolute inset-0 -z-10 h-full 
+    hidden md:block w-full  object-center"/>
+        <img src="./imgs/bg5.png" class="absolute inset-0 -z-10 h-full 
+    md:hidden block w-full  object-center"/>
+
+        <div class='text-center pt-10'>
+            <h1 class='md:text-xl text-base text-cyan-400 uppercase font-bold py-2 '>solution</h1>
+            <p class='md:text-4xl text-3xl text-white font-light md:font-semibold py-2'>A Full-Scale Payment Gateway Platform  <br /> with a Fully Integrated Solutions Suite</p>
+
+        </div>
+
+        <div class='flex flex-col md:flex-row w-[86%] mt-[100px] mx-auto justify-around relative'>
+            <div class='relative md:w-[50%] w-full ' >
+                <img src="./imgs/animated.png" class=' md:h-[500px] h-[300px]  md:ml-10 pl-20 relative z-0' alt="" />
+            </div>
+
+            <div class='md:w-[50%] w-full'>
+
+                <div class=''>
+                    <img src="./imgs/fs1.svg" alt="" class='inline' />
+                    <span class=' text-center text-white  font-semibold text-[1.8rem] mt-4'>QC Lite</span>
+                    <p class='text-slate-300 text-base text-left pl-12 pb-4 border-b border-white '>A one-of-a-kind payment solution for your customers wherein payments can be made without the user leaving your application. QC Lite auto selects the most preferred payment option among saved instruments with PhonePe and also helps generate up to 4% incremental success rates.</p>
+                </div>
+                <div class='mt-10'>
+                    <img src="./imgs/fs2.svg" alt="" class='inline' />
+                    <span class=' text-center text-white  font-semibold text-[1.8rem] '>Fast Forward</span>
+                    <p class='text-slate-200 text-base text-left pl-12'>A lightning-fast checkout experience that reduces the steps in a user's payment journey to just one. Enabling faster payments, the experience helps you generate incremental success rates upto 3%.</p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class='w-[88%] md:mt-0 mt-10 mx-auto'>
+            <div class='grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0 justify-items-center'>
+
+                <div class='w-[300px]'>
+                    <img src="./imgs/fs6.svg" alt="" class='h-[60px] w-[60px]' />
+                    <span class=' text-center text-white  font-semibold text-[1.6rem] '>Dynamic QR</span>
+                    <p class='text-white opacity-60 text-[0.8rem] text-left '>An intuitive two-step payment experience of scanning a QR code using any UPI app to make the transaction. Generating better conversions by reducing drop-offs and safeguards you from VPA data entry errors.</p>
+                </div>
+
+                <div class='w-[300px]'>
+                    <img src="./imgs/fs3.svg" alt="" class='h-[60px] w-[60px]' />
+                    <span class=' text-center text-white  font-semibold text-[1.6rem] '>Auto-Pay/Recurring</span>
+                    <p class='text-white opacity-60 text-[0.8rem] text-left '>A one-click subscription solution that is easy to integrate and easier to set up by your customers. It fosters growth for your business by ensuring revenue lock-in and user retention.</p>
+                </div>
+
+                <div class='w-[300px]'>
+                    <img src="./imgs/fs4.svg" alt="" class='h-[60px] w-[60px]' />
+                    <span class=' text-center text-white  font-semibold text-[1.6rem] '>Pay On Delivery</span>
+                    <p class='text-white opacity-60 text-[0.8rem] text-left '>Seamless and contactless payment solution facilitating digital payments for COD orders at the doorstep of your customers, helping your business to reduce the cash handling costs.</p>
+                </div>
+
+                <div class='w-[300px]'>
+                    <img src="./imgs/fs5.svg" alt="" class='h-[60px] w-[60px]' />
+                    <span class=' text-center text-white  font-semibold text-[1.6rem] '>Tokenization</span>
+                    <p class='text-white opacity-60 text-[0.8rem] text-left '>Store your tokenized cards exclusively for your customers with your very own PhonePe Card Vault. PhonePe acts as the Technical Service Provider (TSP) for you and provides you with the complete ownership of all tokenized cards in the vault. The solution supports other Payment Gateways and external tokens as well.</p>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class='Sign_up_button items-center text-center mt-2 pb-32'>
+            <button class='uppercase w-[230px] py-4 text-white font-semibold bg-violet-800 mt-6 rounded-full'>sign up now</button>
+        </div>
+
+    </div>
+
+<!-- yaha se karrna ha  -->
+
+<div class='bg-violet-900 '>
+    <div class='text-center pt-10'>
+        <h1 class='text-xl text-cyan-400 my-4 uppercase font-bold py-2 '>FOR DEVELOPERS</h1>
+        <p class='md:text-4xl text-2xl text-white font-bold py-2'>A Super Quick, Effortless <br /> PhonePe Payment Gateway <br /> Onboarding and Set-Up</p>
+
+    </div>
+
+
+
+    <div class='flex flex-col md:flex-row justify-around md:w-[88%] w-[95%] items-center mx-auto'>
+
+        <div class='md:w-[50%] w-[95%] '>
+
+            <div class=''>
+
+                <span class=' text-center text-white opacity-80  font-bold text-[1.2rem] mt-4'>Supports Range of platforms & plugins</span>
+                <p class='text-slate-300 text-[1rem] text-left '>With the best Payment Gateway in India, get digital self-serve onboarding, enjoy hassle-free no code setup for various plugins and access the easiest integration with the support for a range of platforms.</p>
+            </div>
+            <div class='my-4'>
+
+                <span class=' text-center text-white opacity-80  font-bold text-[1.2rem] '>Light SDKs, Flexible APIs</span>
+                <p class='text-slate-200 text-[1rem] text-left'>Ramp up your business with well-documented and light SDKs, simple-to-use and flexible APIs that provide an effortless way of initiating and authorizing your payments, and more!</p>
+                <p class='text-slate-200 text-[1rem] my-10 text-left'>Choose the integration that’s right for you and we will help you get started in no time.</p>
+            </div>
+
+
+        </div>
+        <div class='w-[90vw] md:w-[50vw] ' >
+            <img src="./imgs/code.png" class=' h-[500px] md:flex hidden ml-10 pl-20 relative z-0' alt="" />
+            <img src="./imgs/code1.png" class=' md:hidden flex z-0' alt="" />
+        </div>
+
+
+    </div>
+
+    <div>
+        <marquee behavior="" direction="">
+            <img src="./imgs/andriod.svg" class='inline' alt="" />
+            <img src="./imgs/.net.svg" class='inline' alt="" />
+            <img src="./imgs/ios.svg" class='inline' alt="" />
+            <img src="./imgs/java.svg" class='inline' alt="" />
+            <img src="./imgs/logo.svg" class='inline' alt="" />
+            <img src="./imgs/woo.svg" class='inline' alt="" />
+            <img src="./imgs/openchat.svg" class='inline' alt="" />
+            <img src="./imgs/ruby.svg" class='inline' alt="" />
+            <img src="./imgs/shopy.svg" class='inline' alt="" />
+        </marquee>
+    </div>
+
+</div>
+
+
+<div class='bg-violet-900 py-32  '>
+    <div class=' w-[88%] mx-auto flex md:flex-row flex-col'>
+        <div class='md:w-[50%] w-full md:ml-10 '>
+            <h1 class='text-white font-bold text-3xl md:text-left text-center '>Fequetly Asked Question</h1>
+            <h1 class='md:text-2xl text-xl font-bold rounded-xl my-8 bg-violet-600 text-white text-center items-center py-6 px-3'>What is the PhonePe Advantage? <ion-icon name="arrow-down-outline"></ion-icon></h1>
+            <h1 class='md:text-2xl text-xl font-bold  text-white text-left py-6 px-3'>What additional features do I get with PhonePe Payment Gateway?<ion-icon name="arrow-down-outline"></ion-icon></h1>
+            <h1 class='md:text-2xl text-xl font-bold  text-white text-left py-6 px-3'>How does PhonePe ensure a hassle-free integration for my platform? <ion-icon name="arrow-down-outline"></ion-icon></h1>
+            <h1 class='md:text-2xl text-xl font-bold  text-white text-left py-6 px-3'>How would my business be onboarded with PhonePe? Are there any charges? <ion-icon name="arrow-down-outline"></ion-icon></h1>
+
+            <h1 class='text-violet-600 font-semibold text-center mt-10'>More Question</h1>
+        </div>
+        <div class='md:w-[50%] w-full md:ml-20 md:mt-0 mt-10 '>
+            <h1 class='text-xl  text-left text-white '>What is the PhonePe Advantage </h1>
+            <p class='text-base mt-4 text-slate-500'>PhonePe provides an effortless and digital self-serve onboarding. Our onboarding team will be there for you anytime you want to reach out, they will ensure a seamless onboarding experience and enable all the required resources like access to dashboards, regular reports, and much more. No, there are no one-time setup charges.</p>
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class='bg-black py-4 items-center relative '>
+    <div class='w-[88%] mx-auto mt-10 flex md:flex-row flex-col justify-around justify-items-center'>
+        <div class='md:w-[50%] w-full p-10'>
+            <h1 class='text-white font-semibold text-xl '>Let's get you started!  </h1>
+            <div class='flex   text-bl bg-white hover:bg-violet-600 hover:text-white cursor-pointer px-4 
+            rounded-full justify-center items-center space-x-4 md:w-5/12 w-52 my-6 py-2'>
+                <p class='text-base font-semibold '>Get Started</p>
+                <ion-icon size="large" name="arrow-forward"></ion-icon>
+              
+            </div>
+   
+           
+        </div>
+
+        <div class='w-[50%]  h-[250px]'>
+            <img src="./imgs/footer4.png" class='relative md:block  w-[300px] md:-top-[350px] md:-right-[200px] top-[-100px] left-[50px] ' alt="" />
+        </div>
+    </div>
+
+</div>
+
+
+
+    <!-- footer start  -->
+
+    <div>
+        <div class='footer flex md:flex-row items-center md:items-start flex-col justify-around mt-14  '>
+
+            <div>
+                <img src="./imgs/logo.png" alt="" />
+            </div>
+            <div class='list-none md:block hidden '>
+                <h1 class='text-black font-semibold  text-[1.2rem]  '>Bussness solution</h1>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Payment Gateway
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Guardian by
+                    Phonepe</li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Express Checkout
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">PhonePe Switch
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Offline Merchant
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Advertise on
+                    PhonePe</li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">SmartSpeaker</li>
+            </div>
+
+            <div class='list-none md:block hidden '>
+                <h1 class='text-black font-semibold text-[1.2rem]  '>Insurance</h1>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Motor Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Bike Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Car Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Health Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Arogya Sanjeevani
+                    Policy</li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Life Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">SmartSpeaker</li>
+            </div>
+            <div class='list-none md:block hidden '>
+                <h1 class='text-black font-semibold text-[1.2rem]  '>General</h1>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Motor Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Bike Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Car Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Health Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Arogya Sanjeevani
+                    Policy</li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Life Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">SmartSpeaker</li>
+            </div>
+            <div class='list-none md:block hidden '>
+                <h1 class='text-black font-semibold text-[1.2rem]  '>Legal</h1>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Motor Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Bike Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Car Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Health Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Pradhan Mantri Yojna</li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Life Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">SmartSpeaker</li>
+            </div>
+            <div class='list-none md:block hidden '>
+                <h1 class='text-black font-semibold text-[1.2rem]  '>Investment</h1>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Motor Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Bike Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Car Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Health Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Arogya Sanjeevani
+                    Policy</li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">Life Insurance
+                </li>
+                <li class='text-[0.9rem] font-thin text-slate-600  hover:text-violet-600 mt-3' href="">SmartSpeaker</li>
+            </div>
+
+
+
+            <div class='relative overflow-hidden text-center'>
+                
+                <img src="./imgs/footer.svg" alt="" class='absolute top-[87px] right-[75px]  w-[20px] h-[20px] ' />
+                <button style="padding-bottom: 20px;">View All Apps</button><br>
+                <button class='py-3 text-[1.2rem] font-bold px-8 border-2 border-violet-600 hover:text-white rounded-full hover:bg-violet-600'>Download Now</button>
+            </div>
+
+        </div>
+
+        <div class='copy right py-2 flex md:flex-row flex-col  justify-between px-10 items-center bg-violet-600 mt-10'>
+            <h1 class='text-center text-sm font-medium text-white '>© 2023 PhonePe. All rights reserved</h1>
+            <div class='flex '>
+                <a href=""
+                    class='text-xl mx-2 text-white rounded-full bg-violet-500 md:w-10 w-5 md:h-10 h-5 justify-center items-center flex '><ion-icon
+                        name="logo-facebook"></ion-icon></a>
+                <a href=""
+                    class='text-xl mx-2 text-white rounded-full bg-violet-500 md:w-10 w-5 md:h-10 h-5 justify-center items-center flex '><ion-icon
+                        name="logo-linkedin"></ion-icon></a>
+                <a href=""
+                    class='text-xl mx-2 text-white rounded-full bg-violet-500 md:w-10 w-5 md:h-10 h-5 justify-center items-center flex '><ion-icon
+                        name="logo-youtube"></ion-icon></a>
+                <a href=""
+                    class='text-xl mx-2 text-white rounded-full bg-violet-500 md:w-10 w-5 md:h-10 h-5 justify-center items-center flex '><ion-icon
+                        name="logo-twitter"></ion-icon></a>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- footer end  -->
+
+
+</body>
+
+</html>
